@@ -11,7 +11,11 @@ To run and compile enter in terminal: gcc tictactoe.c -o tictactoe
              Return and follow it by: ./tictactoe
 
 
+
+
 To play:
+
+
 
 The board has 9 squares numbered 0 to 8.
 
@@ -26,7 +30,11 @@ If the computer has already place their symbol on it, or you yourself, the terim
 After each game either type 'y', to play again or 'q', to quit.
 
 
-Function	Purposes:
+
+
+Function Purposes:
+
+
 
 init_board -> Set all 9 squares to empty
 display_board	-> Print the board (uses char c[9])
@@ -38,6 +46,11 @@ take_turn	-> Let the current player make one move
 play_game	-> Play one complete game
 play_again	-> Ask whether to play another game
 
+
+
+
 Possible improvments:
+
+
 
 Building a program that can predict and assess the best next course of action using pattern recognition, as currently it is only programmed to pick a square at random. To extend to this, a feature that allows you to select the difficulty could also be added: easy setting could be the randomly selected number and hard could be the program that ditects patterns to win. 
